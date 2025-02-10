@@ -1,0 +1,45 @@
+h1 {
+    margin: 0;
+}
+
+body {
+    background-color: #008080; /* Fallback color that shows immediately */
+    background-image: url('jaunty-jackalope.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+
+.window {
+    margin-top: 100px;
+}
+
+/* Custom cursor styles */
+* {
+    cursor: url('dmz/default.cur'), default;
+}
+
+a, button, [role="button"], select, summary {
+    cursor: url('dmz/pointer.cur'), pointer;
+}
+
+input[type="text"], 
+input[type="password"], 
+textarea {
+    cursor: url('dmz/text.cur'), text;
+}
+
+/* For resize handles */
+.resizable-handle {
+    cursor: url('dmz/move.cur'), move;
+}
+
